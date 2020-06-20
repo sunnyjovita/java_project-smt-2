@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.shop</OriginalElement>
+  <nodes>
+    <node x="46.5" y="228.0">com.shop.order_menu</node>
+    <node x="98.04583333333338" y="0.0">com.shop.Login</node>
+    <node x="128.3791666666667" y="103.0">com.shop.MainMenu</node>
+    <node x="67.85069444444446" y="393.0">com.shop.items_menu</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.shop.Login" target="com.shop.items_menu">
+      <point x="-45.5" y="26.5" />
+      <point x="143.54583333333338" y="83.0" />
+      <point x="36.0" y="83.0" />
+      <point x="36.0" y="363.0" />
+      <point x="101.45069444444442" y="363.0" />
+      <point x="-78.40000000000003" y="-102.5" />
+    </edge>
+    <edge source="com.shop.order_menu" target="com.shop.MainMenu">
+      <point x="46.75" y="-47.5" />
+      <point x="186.75" y="208.0" />
+      <point x="173.8791666666667" y="208.0" />
+      <point x="-45.5" y="37.5" />
+    </edge>
+    <edge source="com.shop.MainMenu" target="com.shop.Login">
+      <point x="-68.25" y="-37.5" />
+      <point x="151.1291666666667" y="83.0" />
+      <point x="173.87916666666672" y="83.0" />
+      <point x="-15.166666666666671" y="26.5" />
+    </edge>
+    <edge source="com.shop.Login" target="com.shop.MainMenu">
+      <point x="45.49999999999997" y="26.5" />
+      <point x="234.54583333333335" y="83.0" />
+      <point x="242.1291666666667" y="83.0" />
+      <point x="22.75" y="-37.5" />
+    </edge>
+    <edge source="com.shop.items_menu" target="com.shop.order_menu">
+      <point x="-33.60000000000002" y="-102.5" />
+      <point x="146.25069444444443" y="343.0" />
+      <point x="116.625" y="343.0" />
+      <point x="-23.375" y="47.5" />
+    </edge>
+    <edge source="com.shop.order_menu" target="com.shop.items_menu">
+      <point x="23.375" y="47.5" />
+      <point x="163.375" y="373.0" />
+      <point x="168.6506944444444" y="373.0" />
+      <point x="-11.200000000000045" y="-102.5" />
+    </edge>
+    <edge source="com.shop.items_menu" target="com.shop.MainMenu">
+      <point x="78.39999999999998" y="-102.5" />
+      <point x="258.25069444444443" y="373.0" />
+      <point x="266.0" y="373.0" />
+      <point x="266.0" y="208.0" />
+      <point x="264.87916666666666" y="208.0" />
+      <point x="45.49999999999997" y="37.5" />
+    </edge>
+    <edge source="com.shop.MainMenu" target="com.shop.items_menu">
+      <point x="-15.166666666666686" y="37.5" />
+      <point x="204.2125" y="208.0" />
+      <point x="244.0" y="208.0" />
+      <point x="244.0" y="353.0" />
+      <point x="213.45069444444442" y="353.0" />
+      <point x="33.599999999999966" y="-102.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="117.0" y="308.5" />
+  <SelectedNodes>
+    <node>com.shop.order_menu</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
